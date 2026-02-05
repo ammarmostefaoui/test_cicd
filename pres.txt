@@ -1,0 +1,25 @@
+1 - quesque devops : 
+
+- Culture et pratiques qui unifient le développement et les opérations​ donc les devlopeurs et les opérationes travail ensemble 
+en partagent les responsabilité et la comunication en continu
+- un autre but c'est d'iliminer les taches manuels repetetive, du coup plus besoin de suivre un word de 20 pages pour livrer un dev.
+- Livrer des changements en production plusieurs fois par jour au lieu de versions trimestrielles. Petits changements fréquents = moins de risques.
+- Observer en temps réel ce qui se passe en production avec des métriques
+
+2 - Défis du Data Engineering : 
+- car il ont plusieurs dependences, par exemple des APi, fichier, bases de données, transformation en cascade, donc une simple modification peux casser 
+plusiuers jobs
+- modification manuelement de fichier de config, relance des services manuelement
+- impossible de savoir qui a modifier quoi, quand et pourquoi car pas d'historique de changemnts faite automatique.
+
+3 - DataOps - DevOps pour la Data : 
+- Chaque modification de vos jobs Talend est enregistrée dans Git avec un historique complet.
+- les jobs ETL/ESB Talend s'exécutent automatiquement selon un calendrier ou des événements déclencheurs, sans intervention humaine.
+- Valider automatiquement que vos transformations produisent les bons résultats avant de déployer en production.
+- Surveiller en continu des pipelines : taux de succès, durée, volumétrie, qualité des données avec des outils (GRAFANA exemple)
+
+4 - Outils DevOps pour Data (2026) : 
+- Version control : gerer l'historique du code , les branches, la collaborations entre dev
+- CICD : Automatiser le build, test et déploiement
+- Orchestration : orchestration l'execution des pipelines de données.
+- Monitoring: collecter des métriques, créer des dashboards, envoyer des alerts.
